@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  height: 65px;
+  background: var(--headerBg);
+  color: var(--headerText);
+  padding: 0 25px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18pt;
+  letter-spacing: -2px;
+}
+
+.text {
+  font-size: 10pt;
+}
