@@ -6,13 +6,16 @@
   --purple2: #a626d3;
   --white: #fff;
   --black: #000;
+  --gray: #d5d4d8;
 
   /* Light Theme */
   --headerBg: linear-gradient(to right, var(--purple1), var(--purple2));
   --headerText: var(--white);
-  --text: var(--black);
+  --inputText: var(--black);
+  --inputBorder: var(--gray);
   --ctaBg: linear-gradient(to right, var(--purple1), var(--purple2));
   --ctaText: var(--white);
+
  
   font-synthesis: none;
   text-rendering: optimizeLegibility;

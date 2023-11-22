@@ -1,0 +1,33 @@
+.form_section > form{
+  width: 550px;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.inputs {
+  display: flex;
+  gap: 17px;
+}
+
+.text_meme {
+  width: 230px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid var(--inputBorder);
+  color: var(--inputText)
+}
+
+.cta {
+  width: 477px;
+  height: 40px;
+  background: var(--ctaBg);
+  border: none;
+  border-radius: 4px;
+  color: var(--ctaText);
+  letter-spacing: -1px;
+  font-weight: 600;
+}
