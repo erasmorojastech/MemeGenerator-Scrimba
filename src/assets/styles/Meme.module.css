@@ -1,0 +1,12 @@
+.section_meme {
+  width: 550px;
+  height: 341px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme {
+  width: 477px;
+  height: 268px;
+}
